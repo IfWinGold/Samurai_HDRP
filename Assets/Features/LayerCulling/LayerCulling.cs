@@ -4,7 +4,7 @@ using UnityEngine.Rendering.HighDefinition;
 using UnityEngine.Rendering;
 using System.Linq;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class LayerCulling : MonoBehaviour {
 	static public LayerCulling Instance { get; private set; }
 	static public bool ForceDisable { private get; set; }
@@ -126,8 +126,8 @@ public class LayerCulling : MonoBehaviour {
 	}
 
 	static void ClearLayerCulling(Camera cullTarget, Light shadowCullTarget) {
-		if(cullTarget)
-			cullTarget.layerCullSpherical = false;
+		//if(cullTarget)
+		//	cullTarget.layerCullSpherical = false;
 
 		if(cullTarget)
 			cullTarget.layerCullDistances = new float[32];

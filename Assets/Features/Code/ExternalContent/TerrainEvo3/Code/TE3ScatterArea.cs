@@ -43,7 +43,7 @@ public class TE3ScatterArea : MonoBehaviour, TE3GUIDMgr.ITE3UniqueInstance, TE3S
 		public bool             simulatePhysics;
         public bool             inflateConvexHull;
 		public bool             useGrowsOnPhysics;
-		public PhysicMaterial[]	growsOnPhysics;
+		public PhysicsMaterial[]	growsOnPhysics;
 		public bool             useGrowsOnTexture;
 		public Texture2D[]	    growsOnTexture;
 
@@ -65,7 +65,7 @@ public class TE3ScatterArea : MonoBehaviour, TE3GUIDMgr.ITE3UniqueInstance, TE3S
             simulatePhysics         = false;
             inflateConvexHull       = false;
             useGrowsOnPhysics       = false;
-            growsOnPhysics          = new PhysicMaterial[0];
+            growsOnPhysics          = new PhysicsMaterial[0];
             useGrowsOnTexture       = false;
             growsOnTexture          = new Texture2D[0];
         }
