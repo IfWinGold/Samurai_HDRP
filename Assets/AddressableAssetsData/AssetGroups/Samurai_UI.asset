@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Samurai_UI
+  m_EditorClassIdentifier: 
+  m_GroupName: Samurai_UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b16153958eabea54f9404b7d6763ad17
+  m_SerializeEntries:
+  - m_GUID: 17c08a61002c9b84da892d70fec4af05
+    m_Address: Samurai_ExecuteMark
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f68d77b2179a41a47a8e6cc39de29d83, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 20acecf2ce75e0d4abcdb1e54b4dc14b, type: 2}
+    - {fileID: 11400000, guid: f6429f333b7c44449a3c81caa35c7242, type: 2}
